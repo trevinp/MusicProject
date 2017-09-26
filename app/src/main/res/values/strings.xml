@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">MusicProject</string>
+    <string name="music_project_name">The Music Project</string>
+    <string name="_90_s_music">90\'s music</string>
+    <string name="_2000_s_music">2000\'s music</string>
+    <string name="_80_s_music">80\'s music</string>
+    <string name="enter_a_type">Enter a type and decade of music you like and this app will recommend others you may like.</string>
+    <string name="button_recommend">Recommend Music</string>
+    <string name="top3">Top 3 Recommendations- click one for details.</string>
+    <string name="select_genre">Select a favorite music genre</string>
+    <string name="item1">Sample recommended item 1</string>
+    <string name="item2">Sample recommended item 2</string>
+    <string name="item3">Sample recommended item 3</string>
+    <string name="home">HOME</string>
+    <string name="buy">BUY MUSIC</string>
+    <string name="back">BACK</string>
+    <string name="details">Sample details about the selected band go here</string>
+    <string name="purchase_details">This is the purchase/payment activity screen.  \n
+    One way to achieve this is to use the In-app billing API for Google Play as documented here: \n \n
+        https://developer.android.com/google/play/billing/api.html
+    </string>
+
+    <string-array name="music_genre_array">
+        <item>Pop</item>
+        <item>Country</item>
+        <item>Metal</item>
+        <item>Alternative</item>
+        <item>Classical</item>
+    </string-array>
+</resources>

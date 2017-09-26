@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDF5E6"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="com.example.android.musicproject.RecommendActivity">
+
+    <TextView
+        android:id="@+id/home_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="@string/top3"
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/item1"
+        style="@style/RecommendStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recommend_colors"
+        android:text="@string/item1"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/item2"
+        style="@style/RecommendStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recommend_colors"
+        android:text="@string/item2"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:id="@+id/item3"
+        style="@style/RecommendStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/recommend_colors"
+        android:text="@string/item3"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button_home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="@string/home"
+            android:textSize="20sp" />
+    </RelativeLayout>
+</LinearLayout>
